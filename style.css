@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    margin: 0;
+    color: aliceblue;
+    padding: 0;
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #333;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    padding: 14px;
+    box-sizing: border-box;
+
+}
+nav a{
+    padding: 10px 20px; 
+    color: #fff;
+    text-decoration: none;
+    vertical-align: baseline;
+    
+}
+nav >a.current{
+    color: yellow;
+}
